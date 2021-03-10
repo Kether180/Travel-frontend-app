@@ -1,8 +1,4 @@
-## Travel-frontend-app
- 
-Project Full-Stack Web Development - Hamburg Coding School
-
-## Project Travel Blog 
+##  Project : Travel Blog -frontend-app
 
 Responsive Travel Blog Web App project  - Full Stack Development - Hamburg Coding School 
 
@@ -15,9 +11,9 @@ Responsive Travel Blog Web App project  - Full Stack Development - Hamburg Codin
 
 ## Technologies
 
- * Html5, Bootstrap CSS3 , Javascript , Rest APIs. Vue.js
+ * Html5, Tailwind CSS, Javascript, Rest APIs, Vue.js.
 
-* [Bootstrap](https://getbootstrap.com/")
+* [Tailwindcss](https://tailwindcss.com/")
 * [Weather API](https://openweathermap.org/api "Weather API documentation")
 * [Google Maps Embed API](https://developers.google.com/maps/documentation/embed/get-started "Google Maps Embed API documentation")
 
