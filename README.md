@@ -24,7 +24,7 @@ https://k8clm.csb.app/
 
 ## About
 
-Alexander is a Full Stack developer/Digital Marketer & Advertiser located Copenhagen, Denmark & Malmo, Sweden.
+Alexander is a Full Stack developer/Digital Marketer & Advertiser located in Copenhagen, Denmark & Malmo, Sweden.
 
 Mail: conscientia.digitaltech@gmail.com
 
