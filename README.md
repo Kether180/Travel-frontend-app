@@ -11,11 +11,11 @@ Responsive Travel Blog Web App project  - Full Stack Development - Hamburg Codin
 
 ## Technologies
 
- * Html5, Tailwind CSS, Javascript, Rest APIs, Vue.js.
-
+ * Html5, Javascript.
 * [Tailwindcss](https://tailwindcss.com/")
 * [Weather API](https://openweathermap.org/api "Weather API documentation")
-* [Google Maps Embed API](https://developers.google.com/maps/documentation/embed/get-started "Google Maps Embed API documentation")
+* [Google Maps Embed API](https://developers.google.com/maps/documentation/embed/get-started "Google Maps Embed API documentation").
+* [Vue.js] (https://vuejs.org/).
 
  
 ## Check the project with codeSandbox
