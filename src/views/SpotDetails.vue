@@ -1,4 +1,13 @@
 <template>
+
+    <div class="text-white-300">
+    <spot-details
+      msg=""/>
+  <h1 class="about text-yellow-1000 py-1 text-5xl bg-gray-800">
+   Destinations
+  </h1>
+    </div>
+
   <div class="flex h-screen pt-16">
     <div
       class="flex flex-col w-4/6 px-24 pt-10 pb-2 2xl:pt-16 2xl:px-32 bg-bridal-300"

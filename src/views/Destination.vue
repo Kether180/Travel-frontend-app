@@ -1,9 +1,9 @@
 <template>
   <div class="text-white-300">
-    <AboutTravel
+    <destination-travel
       msg=""/>
   <h1 class="about text-yellow-1000 py-1 text-5xl bg-gray-800">
-    About Us
+   Destinations
   </h1>
 
   <div class="about  text-white text">
@@ -11,9 +11,9 @@
     A decade ago, I quit my job as a Business Developer in Sales and Marketing
     to visit Asia. <br />
     I thought I would take just a sabbatical year, but I ended up making
-    different trips around the world.<br />
-    I started Legal Travel Geek Nomads to share photos and stories
-    from my years around the globe.<br /><br />
+    different trips around the world<br />
+    adventure. I started Legal Travel Geek Nomads to share photos and stories
+    from my years's around the globe.<br /><br />
 
     Instead of returning to America and the job environment, I decided to purse
     a new career in Europe.<br />
@@ -32,22 +32,20 @@
   <div class="roraima-about inline-block align-middle">
     <img
       alt="backgrondPhoto"
-      src="../assets/roraima2.jpg"
+      src="../assets/wao1.jpg"
       width="700"
       height="400"
     />
   </div>
    </div>
+
 </template>
 
 <script>
-// @ is an alias to /src
-import AboutTravel from "@/components/AboutTravel.vue";
-
+import DestinationTravel from '../components/DestinationTravel.vue';
 export default {
-  name: "About",
-  components: {
-    AboutTravel,
-  },
+  components: { DestinationTravel },
+  name: "Destination",
 };
+
 </script>

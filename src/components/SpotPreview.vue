@@ -43,8 +43,11 @@ export default {
       }
     },
   },
-  computed: {
-    spots() {
+  computed: { 
+
+    spots() { console.log("hallo")
+    
+    console.log(this.$store.getters.spotList)
       return this.$store.getters.spotList;
     },
   },

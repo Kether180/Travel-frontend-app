@@ -91,7 +91,7 @@ export default createStore({
 
 //*  IO Handling 
 
-const url = 'https://nomad-travel-geek.herokuapp.com/';
+const url = 'http://localhost:3000/';
 
 export function locationData() {
 return fetch(url + 'locations');

@@ -2,6 +2,10 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Dashboard from '../views/Dashboard.vue';
 import SpotDetails from '../views/SpotDetails.vue';
 import ContactPage from '../views/ContactPage.vue';
+import AboutTravel from '../views/About.vue';
+import BlogTravel from '../views/Blog.vue';
+import DestinationTravel from '../views/Destination.vue';
+
 
 const routes = [
 	{
@@ -9,6 +13,22 @@ const routes = [
 		name: 'Dashboard',
 		component: Dashboard
 	},
+	{
+		path: '/about',
+		name: 'About',
+		component: AboutTravel
+	},
+	{
+		path: '/blog',
+		name: 'Blog',
+		component: BlogTravel
+	},
+	{
+		path: '/destinations',
+		name: 'Destination',
+		component: DestinationTravel
+	},
+
 	{
 		path: '/details/:spotId',
 		name: 'SpotDetails',
@@ -20,11 +40,7 @@ const routes = [
 		name: 'ContactPage',
 		component: ContactPage
 	},
-	{
-		path: '/:catchAll(.*)',
-		name: 'PageNotFound',
-		component: () => import('../views/PageNotFound.vue')
-	}
+	
 ];
 
 const router = createRouter({
