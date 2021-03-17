@@ -21,3 +21,10 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# .cache
+.cache
+
+# dotenv files
+.env.development.*
+.env.production.*

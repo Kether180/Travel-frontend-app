@@ -1,5 +1,22 @@
-<template>
+<!--template>
   <div class="about">
-    <h1>Travel Nomad Geek</h1>
+    <AboutTravel msg=""/>
   </div>
+  
+  <div class="text-red 500 bg-green-500">
+  </div>
+  
 </template>
+
+<script>
+// @ is an alias to /src
+import AboutTravel from '@/components/AboutTravel.vue'
+
+export default {
+  name: 'About',
+  components: {
+    AboutTravel  
+  }
+}
+</script>
+
