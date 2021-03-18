@@ -1,10 +1,12 @@
 <template>
-  <div id="app">
+  <!---Menu--->
+  <div class="text-center bg-black">
     <Nav class="mb-6" />
   </div>
+  <div class="text-center bg-black text-yellow-1000"></div>
 
   <!---google maps--->
-  <div class="text-center">
+  <div class="text-center text-yellow-1000">
     <div class="p-6" id="nav"></div>
     <router-view v-slot="{ Component }">
       <keep-alive>
@@ -12,9 +14,11 @@
       </keep-alive>
     </router-view>
   </div>
+  <div class="text-center bg-black p-1">
 
-  <div id="app">
-    <Footer class="mb-6" />
+     <!---Footer--->
+
+    <Footer class="mb" />
   </div>
 </template>
 
@@ -23,64 +27,86 @@ import Nav from "./components/Nav.vue";
 import Footer from "./components/Footer.vue";
 
 
+  //import getPosts from '@/composables/getPosts.js';
+  //import bannerImage from '@/assets/banner1.jpg';
+  //import Banner from '@/components/Banner.vue';
+  //import OverviewCard from '@/components/OverviewCard.vue';
+  //import Map from '@/components/Map.vue';
+  //import Spinner from '@/components/Spinner.vue';
+  // import { getBlogposts, getUsers, to } from '../utils/io.js';
+
 export default {
   name: "App",
   components: {
     Nav,
-   
     Footer,
-
+  },
   
-  },
-
-  created() {
-    this.$store.dispatch("init");
-  },
-  computed: {
-    initialized() {
-      return this.$store.getters.initialized;
+  data() {
+      return {
+       // bannerImage,
+        bannerText: 'The Travel Blog',
+        bannerButtonText: 'About',
+        bannerButtonLink: 'about',
+      };
     },
-  },
-};
+    methods: {
+      selectBlogpost(blogpost) {
+        const link = '/details/' + blogpost._id;
+        this.$router.push(link);
+      },
+    },
+    computed: {
+      userIsLoggedIn() {
+        return this.$store.getters.userIsLoggedIn;
+      },
+      currentUser() {
+         return this.$store.getters.getCurrentUser;
+      }
+    },
+    // get all blogposts
+    //setup() {
+      //const { blogposts, error, load } = getPosts();
+      //load();
+      //return { blogposts, error };
+    //}, --
+        // load list of blogposts:
+    // async mounted() {
+    //   console.log('/home mounted');
+    //   {
+    //     const { data, error } = await to(getBlogposts());
+    //     if (!error) {
+    //       console.log('data:', data);
+    //       this.blogposts = data;
+    //       let array = data;
+    //       this.$store.dispatch('setAllBlogposts', data);
+    //       console.log('👍Got blogposts from Server');
+    //     } else {
+    //       console.log('🚫Error getting Blogpost-Data from Server');
+    //     }
+    //   }
+    //   {
+    //     const { data, error } = await to(getUsers());
+    //     if (!error) {
+    //       this.users = data;
+    //       console.log('👍Got users from Server');
+    //     } else {
+    //       console.log('🚫Error getting user-Data from Server');
+    //     }
+    //   }
+    // },
+  };
+
+
 </script>
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+
 #app {
-  font-family: "Cabin", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  text-size-adjust: 10;
   background-color: black;
-  height: 100%;
-  color: #ffef08;
-  margin-top: ;
-  padding: 0;
 }
-
-#menu-bar {
-  padding: 50px;
-}
-
-#menu-bar a {
-  font-weight: bold;
-  color: #ffef08;
-}
-
-#menu-bar a.router-link-exact-active {
-  color: #e20d0d;
-}
-
-*,
-::before,
-::after {
-  border-width: 0;
-  border-style: solid;
-  border-color: theme("borderColor.default", currentColor);
-}
-
-button:focus {
-  outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+h1 {
+  color: yellow;
 }
 </style>
+

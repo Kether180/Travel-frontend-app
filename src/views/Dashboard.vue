@@ -1,76 +1,85 @@
 <template>
   <div class="dahsboard">
-    
- <!---google maps--->
-  <div class="text-center">
-    <div class="p-6" id="nav">
-      <router-link class="font-bold text-yellow-1000" to="/"
-        >Check Our Travel Locations</router-link
-      >
-      <router-link class="font-bold text-yellow-700" to="/about"></router-link>
-    </div>
-    <router-view v-slot="{ Component }">
-      <keep-alive>
-        <component :is="Component" />
-      </keep-alive>
-    </router-view>
+    <!---google maps--->
+    <h1 class=" my-3 text-yellow-1000  text-2xl p">
+      Check Our Travel Locations <br>
+    </h1>
   </div>
-  
-    <GoogleMap :markers="markers" :center="center" />
-  
- 
-    <div class="flex h-screen pt-16">
+
+  <GoogleMap :markers="markers" :center="center" />
+
+  <div class="flex h-screen pt-16">
     <SpotPreview />
     <Map />
-  </div>
-    
   </div>
 </template>
 
 <script>
-import GoogleMap from '@/components/GoogleMap.vue'
-import SpotPreview from "../components/SpotPreview";
-import SpotPreviewCard from "../components/SpotPreviewCard";
-import Map from "../components/Map";
-
+import GoogleMap from "@/components/GoogleMap.vue";
 
 export default {
-  name: 'Dashboard',
+  name: "Dashboard",
   components: {
     GoogleMap,
-    SpotPreview,
-    SpotPreviewCard,
-    Map,
-    
   },
   data() {
     return {
       center: { lat: 53.551086, lng: 9.993682 },
       markers: [
         {
-          id: '',
+          id: "",
           position: {
-            lat: 51.093048, lng: 6.842120
+            lat: 51.093048,
+            lng: 6.84212,
           },
         },
         {
-          id: '',
+          id: "",
           position: {
-            lat: 51.093897, lng: 8.842128
+            lat: 51.093897,
+            lng: 8.842128,
+          },
+        },
+           {
+          id: "",
+          position: {
+            lat: 58.093897,
+            lng: 9.842128,
+          },
+        },
+           {
+          id: "",
+          position: {
+            lat: 47.093897,
+            lng: 4.842128,
+          },
+        },
+           {
+          id: "",
+          position: {
+            lat: 33.093897,
+            lng: 1.842128,
+          },
+        },
+           {
+          id: "",
+          position: {
+            lat: 22.093897,
+            lng: 1.842128,
           },
         },
         {
-          id: 'Copenhagen',
+          id: "Copenhagen",
           position: {
-            lat: 53.551086, lng: 9.993682
+            lat: 53.551086,
+            lng: 9.993682,
           },
-        }
-      ]
-    }
-  }
-}
+        },
+      ],
+    };
+  },
+};
 </script>
-
 
 <!---template>
   <div class="flex h-screen pt-16">
@@ -90,4 +99,3 @@ export default {
   },
 };
 </script--->
-

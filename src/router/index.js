@@ -30,7 +30,7 @@ const routes = [
 	},
 
 	{
-		path: '/details/:spotId',
+		path: '/spotdetails/',
 		name: 'SpotDetails',
 		component: SpotDetails,
 		props: true

@@ -1,8 +1,8 @@
 <template>
 <div class="text-white-300">
    
-  <h1 class="about text-yellow-1000 py-1 text-5xl bg-gray-800">
-    Contact
+  <h1 class="about text-yellow-1000 py text-4xl bg-gray-800">
+    CONTACT
   </h1>
   
   <div class="about  text-white text">
@@ -35,7 +35,7 @@
             <p>Full-Stack Developer</p>
           </div>
           <div class="py-2 2xl:py-2 2xl:text-lg text-white-400">
-            Alexander Garcia <br />
+            Alexander Garcia Angus <br />
             
             <svg
               class="w-5 right h-5 inline-block align-middle mr-3 2xl:w-5 2xl:h-5"
@@ -62,7 +62,7 @@
             <a
               target="_blank"
               href="https://github.com/Kether180/Travel-frontend-app"
-              >Github</a
+              ></a
             >
             <br />
             Copenhagen, Denmark <br>

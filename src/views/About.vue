@@ -2,8 +2,8 @@
   <div class="text-white-300">
     <AboutTravel
       msg=""/>
-  <h1 class="about text-yellow-1000 py-1 text-5xl bg-gray-800">
-    About Us
+  <h1 class="about text-yellow-1000 py text-4xl bg-gray-800 ">
+    ABOUT US
   </h1>
 
   <div class="about  text-white text">

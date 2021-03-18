@@ -2,8 +2,8 @@
   <div class="text-white-300">
     <blog-travel
       msg=""/>
-  <h1 class="about text-yellow-1000 py-1 text-5xl bg-gray-800">
-   Blog 
+  <h1 class="about text-yellow-1000 py text-4xl bg-gray-800">
+   BLOG
   </h1>
 
   <div class="about  text-white text">

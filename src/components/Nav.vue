@@ -8,43 +8,43 @@
         height="100 "
       />
       <div>
-        <h1 class="text-center m-6 text-white bg-yellow">
+        <h1 class="text-center m-6 text-white bg-yellow text-2xl">
           THE TRAVEL GEEK NOMAD BLOG {{ msg }}
         </h1>
         <div></div>
       </div>
-      <div class="inline-block align-middle p-6">
+      <div class="inline-block align-middle p-5">
         <router-link to="/">Home </router-link>
       </div>
-      <div class="inline-block align-middle p-6">
-        <router-link to="/details/:spotId"> details SpotID </router-link>
-      </div>
-      <div class="inline-block align-middle p-6">
+      <div class="inline-block align-middle p-5">
         <router-link to="/about">About</router-link>
       </div>
-      <div class="inline-block align-middle p-6">
-        <router-link to="/blog">Blog</router-link>
+       <div class="inline-block align-middle p-5">
+        <router-link to="/details/">Reservations</router-link>
       </div>
+       </div>
       <div class="inline-block align-middle p-6">
         <router-link to="/destinations">Destinations</router-link>
       </div>
-
+      <div class="inline-block align-middle p-5">
+        <router-link to="/blog">Blog</router-link>
+      </div>
       <div class="inline-block align-middle p-6">
         <router-link to="/contact">Contact</router-link>
       </div>
-    </div>
+    
 
     <div class="w-full max-w-xs ">
-      <form class="bg-black shadow-md rounded px-1 pt pb mb">
-        <div class="mb-1">
+      <form class="bg-black shadow-md rounded px-6">
+        <div class="mb">
           <label
-            class="block text-white-700 text-sm font-bold mb-2"
+            class="block text-white-700 text-sm font-bold "
             for="username"
           >
             Username
           </label>
           <input
-            class="shadow appearance-none border rounded py-1 px text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            class="shadow appearance-none border rounded  text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             id="username"
             type="text"
             placeholder="Username"
@@ -58,7 +58,7 @@
             Password
           </label>
           <input
-            class="shadow appearance-none border border-red- rounded py-1 px text-gray-700 mb leading-tight focus:outline-none focus:shadow-outline"
+            class="shadow appearance-none border border-red- rounded text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             id="password"
             type="password"
             placeholder="******************"
@@ -69,13 +69,13 @@
         </div>
         <div class="flex items-center justify-between">
           <button
-            class="bg-grey-400 hover:bg-white-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            class="hover:bg-white-700 hover:text-black  text-white font-bold bg-yellow-500 py px-1  text-s rounded focus:outline-none focus:shadow-outline"
             type="button"
           >
             Sign In
           </button>
           <a
-            class="inline-block align-baseline py-1 px font-bold text-sm text-white-500 hover:text-blue-800"
+            class="inline-block align-baseline py-1 px font-bold text-sm text-white-500 hover:text-blue-800 "
             href="#"
           >
             Forgot Password?
@@ -85,7 +85,7 @@
     </div>
   </nav>
 
-  <h1 class="text-center text-white bg-yellow">
+  <h1 class="text-center text-white text-2xl my-6">
     DISCOVER & TRAVEL WITH A MINDFULNESS STATE OF MIND {{ msg }}
   </h1>
 </template>
