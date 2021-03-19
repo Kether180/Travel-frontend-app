@@ -20,7 +20,7 @@
         <router-link to="/about">About</router-link>
       </div>
        <div class="inline-block align-middle p-5">
-        <router-link to="/details/">Reservations</router-link>
+        <router-link to="/reservations/">Reservations</router-link>
       </div>
        </div>
       <div class="inline-block align-middle p-6">

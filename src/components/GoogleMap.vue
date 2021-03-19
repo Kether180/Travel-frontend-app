@@ -2,7 +2,7 @@
   <div class="about">
     <GMapMap
       :center="center"
-      :zoom="7"
+      :zoom="4"
       map-type-id="terrain"
       style="width: 98,5vw; height: 450px"
     >

@@ -1,5 +1,6 @@
 <template>
-  <!---Menu--->
+  <!---Menu--->                        
+
   <div class="text-center bg-black">
     <Nav class="mb-6" />
   </div>
@@ -14,6 +15,7 @@
       </keep-alive>
     </router-view>
   </div>
+   <LocationData class="mb" />
   <div class="text-center bg-black p-1">
 
      <!---Footer--->
@@ -25,6 +27,8 @@
 <script>
 import Nav from "./components/Nav.vue";
 import Footer from "./components/Footer.vue";
+import bannerImage from "/public/img/copenhagen.jpg";
+//import LocationData from "/utils/locationData";
 
 
   //import getPosts from '@/composables/getPosts.js';
@@ -40,11 +44,12 @@ export default {
   components: {
     Nav,
     Footer,
+    //LocationData,
   },
   
   data() {
       return {
-       // bannerImage,
+        bannerImage,
         bannerText: 'The Travel Blog',
         bannerButtonText: 'About',
         bannerButtonLink: 'about',
@@ -56,14 +61,7 @@ export default {
         this.$router.push(link);
       },
     },
-    computed: {
-      userIsLoggedIn() {
-        return this.$store.getters.userIsLoggedIn;
-      },
-      currentUser() {
-         return this.$store.getters.getCurrentUser;
-      }
-    },
+ 
     // get all blogposts
     //setup() {
       //const { blogposts, error, load } = getPosts();

@@ -9,19 +9,35 @@
   <GoogleMap :markers="markers" :center="center" />
 
   <div class="flex h-screen pt-16">
-    <SpotPreview />
-    <Map />
+    
   </div>
+  <div class="flex h-screen pt-16">
+   
+   </div>
+  <div class="flex h-screen pt-16">
+   <LocationData class="mb" />
+ </div>
+ <div class="flex h-screen pt-16">
+   <overview-card class="mb" />
+ </div>
+
 </template>
 
 <script>
 import GoogleMap from "@/components/GoogleMap.vue";
 
+import OverviewCard from '../components/OverviewCard.vue';
+
+//import LocationData from './utils/locationData';
+
 export default {
   name: "Dashboard",
   components: {
     GoogleMap,
-  },
+   
+    //LocationData
+
+    OverviewCard  },
   data() {
     return {
       center: { lat: 53.551086, lng: 9.993682 },
@@ -80,22 +96,3 @@ export default {
   },
 };
 </script>
-
-<!---template>
-  <div class="flex h-screen pt-16">
-    <SpotPreview />
-    <Map />
-  </div>
-</template>
-
-<script>
-import SpotPreview from "../components/SpotPreview";
-import Map from "../components/Map";
-export default {
-  name: "Dashboard",
-  components: {
-    SpotPreview,
-    Map,
-  },
-};
-</script--->
