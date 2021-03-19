@@ -24,7 +24,7 @@
     As resources for people wanting to try something similar and as my travels
     have evolved, so has this site.<br /><br />
 
-    The TravelGeek Nomad Blog remains, as a place to tell share knowledge<br />
+    The Travel Geek Nomad Blog remains as a place to tell share knowledge<br />
     and experiences. <br />I hope you enjoy the ride!<br />
     <br />
   </div>

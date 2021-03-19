@@ -2,7 +2,7 @@
   <!---Menu--->                        
 
   <div class="text-center bg-black">
-    <Nav class="mb-6" />
+    <Nav class="mb-6"/>
   </div>
   <div class="text-center bg-black text-yellow-1000"></div>
 

@@ -13,7 +13,7 @@
     I thought I would take just a sabbatical year, but I ended up making
     different trips around the world<br />
     adventure. I started Legal Travel Geek Nomads to share photos and stories
-    from my years's around the globe.<br /><br />
+    from my years around the globe.<br /><br />
 
     Instead of returning to America and the job environment, I decided to purse
     a new career in Europe.<br />
@@ -24,7 +24,7 @@
     As resources for people wanting to try something similar and as my travels
     have evolved, so has this site.<br /><br />
 
-    The TravelGeek Nomad Blog remains, as a place to tell share knowledge<br />
+    The Travel Geek Nomad Blog remains as a place to tell share knowledge<br />
     and experiences. <br />I hope you enjoy the ride!<br />
     <br />
   </div>

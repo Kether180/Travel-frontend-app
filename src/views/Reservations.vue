@@ -1,10 +1,11 @@
 <template>
   <div class="text-white-300">
-    <ReservationsTravel 
+    <reservations-travel
       msg=""/>
-  <h1 class="about text-yellow-1000 py text-4xl bg-gray-800 p">
-    RESERVATIONS 
+  <h1 class="about text-yellow-1000 py text-4xl bg-gray-800">
+   RESERVATIONS
   </h1>
+
 
   <div class="about  text-white text">
     <br />

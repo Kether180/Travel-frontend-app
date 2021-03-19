@@ -1,10 +1,12 @@
 <template>
   <div class="dahsboard">
     <!---google maps--->
-    <h1 class=" my-3 text-yellow-1000  text-2xl p">
+    <h1 class=" my-3 text-yellow-1000  my-5 text-3xl b-3">
       Check Our Travel Locations <br>
     </h1>
   </div>
+
+  
 
   <GoogleMap :markers="markers" :center="center" />
 

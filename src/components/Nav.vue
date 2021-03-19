@@ -19,13 +19,13 @@
       <div class="inline-block align-middle p-5">
         <router-link to="/about">About</router-link>
       </div>
+      <div class="inline-block align-middle p-5">
+        <router-link to="/destinations">Locations</router-link>
+      </div>
        <div class="inline-block align-middle p-5">
-        <router-link to="/reservations/">Reservations</router-link>
+        <router-link to="/reservations/">Reservation</router-link>
       </div>
        </div>
-      <div class="inline-block align-middle p-6">
-        <router-link to="/destinations">Destinations</router-link>
-      </div>
       <div class="inline-block align-middle p-5">
         <router-link to="/blog">Blog</router-link>
       </div>
@@ -64,15 +64,15 @@
             placeholder="******************"
           />
           <p class="text-yellow-500 text-xs italic">
-            Please choose a password.
+           
           </p>
         </div>
         <div class="flex items-center justify-between">
           <button
-            class="hover:bg-white-700 hover:text-black  text-white font-bold bg-yellow-500 py px-1  text-s rounded focus:outline-none focus:shadow-outline"
+            class="my-3 hover:bg-white-700 hover:text-blue-800 bg-gray-800 text-white font bg-yellow-350 py px-1  text-s rounded focus:outline-none focus:shadow-outline"
             type="button"
           >
-            Sign In
+            Log in
           </button>
           <a
             class="inline-block align-baseline py-1 px font-bold text-sm text-white-500 hover:text-blue-800 "
@@ -85,7 +85,7 @@
     </div>
   </nav>
 
-  <h1 class="text-center text-white text-2xl my-6">
+  <h1 class="text-center text-white text-3xl ">
     DISCOVER & TRAVEL WITH A MINDFULNESS STATE OF MIND {{ msg }}
   </h1>
 </template>
