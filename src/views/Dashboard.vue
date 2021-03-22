@@ -2,95 +2,101 @@
   <div class="dahsboard">
     <!---google maps--->
     <h1 class=" my-3 text-yellow-1000  my-5 text-3xl b-3">
-      Check Our Travel Locations <br>
+      Check Our Travel Locations
+      <h1 />
     </h1>
   </div>
 
-  
-
   <GoogleMap :markers="markers" :center="center" />
+  <router-link to="/destinations">
+    <div class="flex h-screen pt-5">
+      <div v-for="marker in markers" :key="marker.id">
+        <OverviewCard :marker="marker" />
+      </div>
+    </div>
+  </router-link>
 
-  <div class="flex h-screen pt-16">
+  
+    <!---POST FETCH DATA --->
+
+    <div class="text-center bg-black p-1">
     
-  </div>
-  <div class="flex h-screen pt-16">
-   
-   </div>
-  <div class="flex h-screen pt-16">
-   <LocationData class="mb" />
- </div>
- <div class="flex h-screen pt-16">
-   <overview-card class="mb" />
- </div>
 
+      <Posts  class="mb" />
+    </div>
 </template>
 
 <script>
 import GoogleMap from "@/components/GoogleMap.vue";
-
-import OverviewCard from '../components/OverviewCard.vue';
-
-//import LocationData from './utils/locationData';
+import OverviewCard from "@/components/OverviewCard.vue";
+import Posts from "@/components/Posts.vue";
 
 export default {
   name: "Dashboard",
   components: {
     GoogleMap,
-   
+
     //LocationData
 
-    OverviewCard  },
+    OverviewCard,
+    Posts,
+  },
   data() {
     return {
       center: { lat: 53.551086, lng: 9.993682 },
       markers: [
         {
-          id: "",
+          id: "Machu Picchu",
+          image: "/img/machu_picchu.jpg",
+          text: "Old Inca Empire",
           position: {
-            lat: 51.093048,
-            lng: 6.84212,
+            lat: -13.163333,
+            lng: -72.545556,
           },
         },
         {
-          id: "",
+          id: "Roraima  Venezuela",
+          image: "/img/roraima.jpg",
+          text: "Mountains of South America",
           position: {
-            lat: 51.093897,
-            lng: 8.842128,
+            lat: 5.143333,
+            lng: -60.7625,
           },
         },
-           {
-          id: "",
+        {
+          id: "Beijing  China",
+          image: "/img/beijing2.jpg",
+          text: "Temple of Heaven",
           position: {
-            lat: 58.093897,
-            lng: 9.842128,
+            lat: 39.8822,
+            lng: 116.4066,
           },
         },
-           {
-          id: "",
+        {
+          id: "Tibet",
+          image: "/img/potala00.jpg",
+          text: "Potala Palace",
           position: {
-            lat: 47.093897,
-            lng: 4.842128,
+            lat: 29.657778,
+            lng: 91.116944,
           },
         },
-           {
-          id: "",
+        {
+          id: "Canarias Islands Spain",
+          image: "/img/teresitas.jpg",
+          text: "Spain",
           position: {
-            lat: 33.093897,
-            lng: 1.842128,
-          },
-        },
-           {
-          id: "",
-          position: {
-            lat: 22.093897,
-            lng: 1.842128,
+            lat: 28.268611,
+            lng: -16.605556,
           },
         },
         {
           id: "Copenhagen",
+          image: "/img/copenhagen.jpg",
+          text: "Denmark",
           position: {
-            lat: 53.551086,
-            lng: 9.993682,
+            lat: 55.676111,
+            lng: 12.568333,
           },
         },
       ],
