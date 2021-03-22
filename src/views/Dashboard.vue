@@ -57,14 +57,14 @@ export default {
         {
           id: "Roraima  Venezuela",
           image: "/img/roraima.jpg",
-          text: "Mountains of South America",
+          text: "South America Mountains",
           position: {
             lat: 5.143333,
             lng: -60.7625,
           },
         },
         {
-          id: "Beijing  China",
+          id: "Beijing",
           image: "/img/beijing2.jpg",
           text: "Temple of Heaven",
           position: {
@@ -82,7 +82,7 @@ export default {
           },
         },
         {
-          id: "Canary Islands Spain",
+          id: "Canary Islands",
           image: "/img/teresitas.jpg",
           text: "Spain",
           position: {
