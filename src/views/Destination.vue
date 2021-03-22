@@ -1,33 +1,239 @@
 <template>
   <div class="text-white-300">
-    <destination-travel
-      msg=""/>
-  <h1 class="about text-yellow-1000 py text-4xl bg-gray-800">
-   TRAVEL LOCATIONS
-  </h1>
+    <destination-travel msg="" />
+    <h1 class="about text-yellow-1000 py text-4xl bg-gray-800">
+      TRAVEL LOCATIONS
+    </h1>
 
-  <div class="about  text-white text">
-    <br />
-    A decade ago, I quit my job as a Business Developer in Sales and Marketing
-    to visit Asia. <br />
-    I thought I would take just a sabbatical year, but I ended up making
-    different trips around the world<br />
-    adventure. I started Legal Travel Geek Nomads to share photos and stories
-    from my years around the globe.<br /><br />
+    <!--1 location -->
+    <h1 class="text-yellow-1000 py text-4xl object-center">Roraima</h1>
+    Here you can check our favorites travel spots
+    <div class="about  text-white text">
+      <p>
+        Mount Roraima or in Spanish Cerro Roraima;) is the highest of the
+        Pakaraima chain of tepuis (table-top mountain) or plateaux in South
+        America.<br />
+        The mountain also serves as the tripoint of Venezuela, Guayana Esequiba
+        and Brazil. Mount Roraima lies on the Guiana Shield in the southeastern
+        <br />
+        corner of Venezuela's 30,000-square-kilometre (12,000-square-mile)
+        Canaima National Park forming the highest peak of Guayana's Highland
+        Range. <br />
+      </p>
 
-    Instead of returning to America and the job environment, I decided to purse
-    a new career in Europe.<br />
-    Food, meditation and technology became my obsessions, and the best way I
-    could connect to others in a new place<br />
-    was by joining groups related to those likes. On Travel Geek Nomads, I share
-    the lessons I have learnt in my years of travel.<br />
-    As resources for people wanting to try something similar and as my travels
-    have evolved, so has this site.<br /><br />
+      <div class="text-center object-right">
+        <img
+          alt="backgrondPhoto"
+          src="../assets/roraima2.jpg"
+          width="500"
+          height="300"
+        />
+        <p>
+          The highest point in Guayana Esequiba and the highest point of the
+          Brazilian state of Roraima lie on the plateau, but Venezuela and
+          Brazil have <br />
+          higher mountains elsewhere.85% of this tepui is in Venezuelan
+          territory (Bolívar state), with 10% in the territory of Guayana
+          Esequiba. <br />
+          <br />
+        </p>
+      </div>
+    </div>
 
-    The Travel Geek Nomad Blog remains as a place to tell share knowledge<br />
-    and experiences. <br />I hope you enjoy the ride!<br />
-    <br />
+    <!--2 location -->
+    <h1 class="text-yellow-1000 py text-4xl object-center">Machu Picchu</h1>
+    Here you can check our favorites travel spots
+    <div class="about  text-white text">
+      <p>
+        Mount Roraima or in Spanish Cerro Roraima;) is the highest of the
+        Pakaraima chain of tepuis (table-top mountain) or plateaux in South
+        America.<br />
+        The mountain also serves as the tripoint of Venezuela, Guayana Esequiba
+        and Brazil. Mount Roraima lies on the Guiana Shield in the southeastern
+        <br />
+        corner of Venezuela's 30,000-square-kilometre (12,000-square-mile)
+        Canaima National Park forming the highest peak of Guayana's Highland
+        Range. <br />
+      </p>
+
+      <div class="text-center object-right">
+        <img
+          alt="backgrondPhoto"
+          src="../assets/machu1.jpg"
+          width="500"
+          height="300"
+        />
+        <p>
+          The highest point in Guayana Esequiba and the highest point of the
+          Brazilian state of Roraima lie on the plateau, but Venezuela and
+          Brazil have <br />
+          higher mountains elsewhere.85% of this tepui is in Venezuelan
+          territory (Bolívar state), with 10% in the territory of Guayana
+          Esequiba. <br />
+          <br />
+        </p>
+      </div>
+    </div>
+
+    <!--3 location -->
+    <h1 class="text-yellow-1000 py text-4xl object-center">Beijing</h1>
+    Here you can check our favorites travel spots
+    <div class="about  text-white text">
+      <p>
+        Mount Roraima or in Spanish Cerro Roraima;) is the highest of the
+        Pakaraima chain of tepuis (table-top mountain) or plateaux in South
+        America.<br />
+        The mountain also serves as the tripoint of Venezuela, Guayana Esequiba
+        and Brazil. Mount Roraima lies on the Guiana Shield in the southeastern
+        <br />
+        corner of Venezuela's 30,000-square-kilometre (12,000-square-mile)
+        Canaima National Park forming the highest peak of Guayana's Highland
+        Range. <br />
+      </p>
+
+      <div class="text-center object-right">
+        <img
+          alt="backgrondPhoto"
+          src="../assets/beijing2.jpg"
+          width="500"
+          height="300"
+        />
+        <p>
+          The highest point in Guayana Esequiba and the highest point of the
+          Brazilian state of Roraima lie on the plateau, but Venezuela and
+          Brazil have <br />
+          higher mountains elsewhere.85% of this tepui is in Venezuelan
+          territory (Bolívar state), with 10% in the territory of Guayana
+          Esequiba. <br />
+          <br />
+        </p>
+      </div>
+    </div>
+
+    <!--1 location -->
+    <h1 class="text-yellow-1000 py text-4xl object-center">Tibet</h1>
+    Here you can check our favorites travel spots
+    <div class="about  text-white text">
+      <p>
+        Mount Roraima or in Spanish Cerro Roraima;) is the highest of the
+        Pakaraima chain of tepuis (table-top mountain) or plateaux in South
+        America.<br />
+        The mountain also serves as the tripoint of Venezuela, Guayana Esequiba
+        and Brazil. Mount Roraima lies on the Guiana Shield in the southeastern
+        <br />
+        corner of Venezuela's 30,000-square-kilometre (12,000-square-mile)
+        Canaima National Park forming the highest peak of Guayana's Highland
+        Range. <br />
+      </p>
+
+      <div class="text-center object-right">
+        <img
+          alt="backgrondPhoto"
+          src="../assets/potala00.jpg"
+          width="500"
+          height="300"
+        />
+        <p>
+          The highest point in Guayana Esequiba and the highest point of the
+          Brazilian state of Roraima lie on the plateau, but Venezuela and
+          Brazil have <br />
+          higher mountains elsewhere.85% of this tepui is in Venezuelan
+          territory (Bolívar state), with 10% in the territory of Guayana
+          Esequiba. <br />
+          <br />
+        </p>
+      </div>
+    </div>
+
+    <!--1 location -->
+    <h1 class="text-yellow-1000 py text-4xl object-center">Canary Islands</h1>
+    Here you can check our favorites travel spots
+    <div class="about  text-white text">
+      <p>
+        Mount Roraima or in Spanish Cerro Roraima;) is the highest of the
+        Pakaraima chain of tepuis (table-top mountain) or plateaux in South
+        America.<br />
+        The mountain also serves as the tripoint of Venezuela, Guayana Esequiba
+        and Brazil. Mount Roraima lies on the Guiana Shield in the southeastern
+        <br />
+        corner of Venezuela's 30,000-square-kilometre (12,000-square-mile)
+        Canaima National Park forming the highest peak of Guayana's Highland
+        Range. <br />
+      </p>
+
+      <div class="text-center object-right">
+        <img
+          alt="backgrondPhoto"
+          src="../assets/teresitas.jpg"
+          width="500"
+          height="300"
+        />
+        <p>
+          The highest point in Guayana Esequiba and the highest point of the
+          Brazilian state of Roraima lie on the plateau, but Venezuela and
+          Brazil have <br />
+          higher mountains elsewhere.85% of this tepui is in Venezuelan
+          territory (Bolívar state), with 10% in the territory of Guayana
+          Esequiba. <br />
+          <br />
+        </p>
+      </div>
+    </div>
+
+    <!--1 location -->
+    <h1 class="text-yellow-1000 py text-4xl object-center">Copenhagen</h1>
+    Here you can check our favorites travel spots
+    <div class="about  text-white text">
+      <p>
+        Mount Roraima or in Spanish Cerro Roraima;) is the highest of the
+        Pakaraima chain of tepuis (table-top mountain) or plateaux in South
+        America.<br />
+        The mountain also serves as the tripoint of Venezuela, Guayana Esequiba
+        and Brazil. Mount Roraima lies on the Guiana Shield in the southeastern
+        <br />
+        corner of Venezuela's 30,000-square-kilometre (12,000-square-mile)
+        Canaima National Park forming the highest peak of Guayana's Highland
+        Range. <br />
+      </p>
+
+      <div class="text-center object-right">
+        <img
+          alt="backgrondPhoto"
+          src="../assets/copenhagen.jpg"
+          width="500"
+          height="300"
+        />
+        <p>
+          The highest point in Guayana Esequiba and the highest point of the
+          Brazilian state of Roraima lie on the plateau, but Venezuela and
+          Brazil have <br />
+          higher mountains elsewhere.85% of this tepui is in Venezuelan
+          territory (Bolívar state), with 10% in the territory of Guayana
+          Esequiba. <br />
+          <br />
+        </p>
+      </div>
+    </div>
   </div>
+
+  <!--WEATHER API-->
+
+  <form id="city-form">
+    <h1 class="article">CHECK THE WEATHER AT YOUR FAVORITE CITY LOCATION</h1>
+    <input
+      class="text-center"
+      id="city-input"
+      type="text"
+      placeholder="Enter the location"
+    />
+    <button
+      class="my-3 hover:bg-white-700 hover:text-blue-800 bg-gray-800 text-white font bg-yellow-350 py px-1  text-s rounded focus:outline-none focus:shadow-outline"
+      type="button"
+    >
+      Submit
+    </button>
+  </form>
+  <div class="text-center" id="city-information"></div>
 
   <div class="roraima-about inline-block align-middle">
     <img
@@ -37,15 +243,12 @@
       height="400"
     />
   </div>
-   </div>
-
 </template>
 
 <script>
-import DestinationTravel from '../components/DestinationTravel.vue';
+import DestinationTravel from "../components/DestinationTravel.vue";
 export default {
   components: { DestinationTravel },
   name: "Destination",
 };
-
 </script>
