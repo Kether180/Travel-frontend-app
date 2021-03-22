@@ -16,7 +16,7 @@
     </div>
   </router-link>
 
-  
+
     <!---POST FETCH DATA --->
 
     <div class="text-center bg-black p-1">
@@ -82,7 +82,7 @@ export default {
           },
         },
         {
-          id: "Canarias Islands Spain",
+          id: "Canary Islands Spain",
           image: "/img/teresitas.jpg",
           text: "Spain",
           position: {
