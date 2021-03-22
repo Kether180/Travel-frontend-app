@@ -22,14 +22,14 @@
     <div class="text-center bg-black p-1">
     
 
-      <Posts  class="mb" />
+      <!--Posts  class="mb"/--->
     </div>
 </template>
 
 <script>
 import GoogleMap from "@/components/GoogleMap.vue";
 import OverviewCard from "@/components/OverviewCard.vue";
-import Posts from "@/components/Posts.vue";
+//import Posts from "@/components/Posts.vue";
 
 export default {
   name: "Dashboard",
@@ -39,7 +39,7 @@ export default {
     //LocationData
 
     OverviewCard,
-    Posts,
+    //Posts,
   },
   data() {
     return {

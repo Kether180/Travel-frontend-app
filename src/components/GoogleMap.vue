@@ -20,6 +20,7 @@
     </GMapMap>
   </div>
 </template>
+
 <script>
 export default {
   name: "GoogleMap",
