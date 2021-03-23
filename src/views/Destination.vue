@@ -31,6 +31,16 @@
           Range. <br />
         </p>
 
+         <div
+      class="text-center object-right my-3 p-3 .rounded-md  inline-block align-middle">
+      <img
+        class="inline-block align-middle"
+        alt="backgrondPhoto"
+        src="../assets/wao3.jpg"
+        width="500"
+        height="300"
+      />
+         </div>
         <p>
           The highest point in Guayana Esequiba and the highest point of the
           Brazilian state of Roraima lie on the plateau, but Venezuela and
@@ -105,7 +115,7 @@
 
     <!--3 location -->
     <h1 class="text-yellow-1000 py text-4xl object-center">
-      THE TEMPLE OF HEAVEN (天坛 Tiāntán) Beijing - China
+      The Temple of Heaven (天坛 Tiāntán) Beijing - China
     </h1>
     <div
       class="text-center object-right my-3 p-3 .rounded-md space-y-3 inline-block align-middle"
@@ -208,7 +218,7 @@
           There are two main climbing routes, one approaching the summit from
           the southeast in Nepal (known as the "standard route")<br />
           and the other from the north in Tibet.<br />
-          <br />
+      
         </p>
       </div>
     </div>
@@ -226,7 +236,7 @@
         width="500"
         height="300"
       />
-      <div class="about  text-white text">
+      <div class="about text-white text my-4">
         <p>
           The Playa de Las Teresitas is an artificial, white sand, tourist beach
           located north of the village of San Andrés, Santa Cruz de Tenerife in
