@@ -1,7 +1,8 @@
 <template>
   <div class="ReservationsTravel">
-    
-  </div>
+
+</div>        
+
 </template>
 <script>
 export default {

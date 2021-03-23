@@ -26,9 +26,6 @@
         <router-link to="/reservations/">Reservation</router-link>
       </div>
        </div>
-      <div class="inline-block align-middle p-5">
-        <router-link to="/blog">Blog</router-link>
-      </div>
       <div class="inline-block align-middle p-6">
         <router-link to="/contact">Contact</router-link>
       </div>
