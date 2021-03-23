@@ -66,7 +66,7 @@
         </div>
         <div class="flex items-center justify-between">
           <button
-            class="my-3 hover:bg-white-700 hover:text-blue-800 bg-gray-800 text-white font bg-yellow-350 py px-1  text-s rounded focus:outline-none focus:shadow-outline"
+            class="my-3 hover:bg-white-700 hover:text-blue-800 bg-gray-800 text-white  py px-4  text-s rounded focus:outline-none focus:shadow-outline"
             type="button"
           >
             Log in
