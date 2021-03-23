@@ -6,6 +6,8 @@ import VueGoogleMaps from '@fawmi/vue-google-maps'
 import './main.css'
 
 
+
+
 createApp(App).use(store).use(router).use(VueGoogleMaps, {
     load: {
         key: 'AIzaSyCo2FWuNPuAGOOC2HUXLANJXBESOxOvVCs',

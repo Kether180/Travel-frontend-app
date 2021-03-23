@@ -4,6 +4,7 @@ import ContactPage from '../views/ContactPage.vue';
 import AboutTravel from '../views/About.vue';
 import DestinationTravel from '../views/Destination.vue';
 import ReservationsTravel from '../views/Reservations.vue';
+import LoggedUserHome  from '../views/LoggedUser.vue';
 
 
 const routes = [
@@ -26,6 +27,11 @@ const routes = [
 		path: '/reservations',
 		name: 'Reservations',
 		component: ReservationsTravel
+	},
+	{
+		path: '/home-logged',
+		name: 'Home-logged',
+		component: LoggedUserHome
 	},
 
 	{

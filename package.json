@@ -12,7 +12,9 @@
     "core-js": "^3.6.5",
     "live-serve": "0.0.0",
     "vue": "^3.0.0",
+    "vue-confirm-dialog": "^1.0.2",
     "vue-router": "^4.0.0-0",
+    "vuejs-dialog": "^1.4.2",
     "vuex": "^4.0.0"
   },
   "devDependencies": {

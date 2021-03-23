@@ -60,35 +60,45 @@
         <p>
           "Machu Picchu Mountain" Mountain is situated at 3061masl. This
           mountain offers its visitors one of the best panoramic views of Machu
-          Picchu citadel and of Vilcanota (or Wilcamayu) river whose waters,
-          despite the distance, you can listen to hitting the rocks. The trail
-          to Machu Picchu Mountain is ascending through steps made of stone and
-          well-established paths. The walk is not really dangerous, nor
-          difficult to perform, but it will require all your strength. During
-          the walk, you can observe how the citadel of Machu Picchu and Huayna
-          Picchu will remain lower and lower; moreover, you can contemplate the
-          exuberant vegetation, where the famous orchids stand out (there are
-          more than 425 species of orchids in Machu Picchu) . The amazing view
-          from the top of this mountain and its colorful path make it the
-          perfect option for adventurers and lovers of nature, moreover it is
-          the best alternative if you cannot climb the other mountain, Wayna
-          Picchu, whether for lack of space availability or physical
-          difficulties.
-          <br />
-          corner of Venezuela's 30,000-square-kilometre (12,000-square-mile)
-          Canaima National Park forming the highest peak of Guayana's Highland
-          Range. <br />
+          Picchu citadel and <br />
+          of Vilcanota (or Wilcamayu) river whose waters, despite the distance,
+          you can listen to hitting the rocks. The trail to Machu Picchu
+          Mountain is ascending through <br />
+          steps made of stone and well established paths. The walk is not really
+          dangerous, nor difficult to perform, but it will require all your
+          strength. During the walk, you can observe <br />
+          how the citadel of Machu Picchu and Huayna Picchu will remain lower
+          and lower; moreover, you can contemplate the exuberant vegetation,
+          where the famous orchids stand out <br />
+          (there are more than 425 species of orchids in Machu Picchu). The
+          amazing view from the top of this mountain and its colorful path make
+          it the perfect option for adventurers and lovers of nature,<br />
+          moreover it is the best alternative if you cannot climb the other
+          mountain, Wayna Picchu, whether for lack of space availability or
+          physical difficulties.
         </p>
-        <p>
+
+        <div class="my-3 p-3 .rounded-md space-y-3 inline-block align-middle">
+          <img
+            class="inline-block align-middle"
+            alt="backgrondPhoto"
+            src="../assets/lamamachu.jpg"
+            width="500"
+            height="300"
+          />
+        </div>
+
+        <p class="my-3 align-middle">
           “Machu Picchu Mountain” Mountain must have been a path used a lot by
           the Incas, especially for military purposes, since you have a 360
-          degrees view of the whole valley, which allows emitting an early
-          warning before any threat of invasion of another adjoining culture.
-          Because of its location, it could also be used for astronomical
-          purposes, to study the cosmos. Actually, it is an important
-          alternative of travel in the archeological park of Machu Picchu and
-          receives hundreds of visitors each day. Machu Picchu Mountain has
-          easier access than Wayna Picchu.
+          degrees view of the whole valley,<br />
+          which allows emitting an early warning before any threat of invasion
+          of another adjoining culture. Because of its location, it could also
+          be used for astronomical purposes, to study the <br />
+          cosmos. Actually, it is an important alternative of travel in the
+          archeological park of Machu Picchu and receives hundreds of visitors
+          each day. Machu Picchu Mountain has easier access than <br />
+          Wayna Picchu.
         </p>
       </div>
     </div>
@@ -153,27 +163,22 @@
       <div class="about  text-white text">
         <p>
           TThe Potala Palace is a dzong fortress in the city of Lhasa, in Tibet.
-          <br />
           It was the winter palace of the Dalai Lamas from 1649 to 1959, has
           been
           <br />
           a museum since then, and is a World Heritage Site since 1994. The
-          palace
-          <br />
-          is named after Mount Potalaka, the mythical abode of the bodhisattva
+          palace is named after Mount Potalaka, the mythical abode of the
+          bodhisattva
           <br />
           Avalokiteśvara.The 5th Dalai Lama started its construction in 1645
-          after
+          after one of his spiritual advisers, Konchog Chophel (died 1646),
+          pointed
           <br />
-          one of his spiritual advisers, Konchog Chophel (died 1646), pointed
+          out that the site was ideal as a seat of government, situated as it is
+          between Drepung and Sera monasteries and the old city of Lhasa.
           <br />
-          out that the site was ideal as a seat of government, situated as it
-          <br />
-          is between Drepung and Sera monasteries and the old city of Lhasa.
-          <br />
-          It may overlay the remains of an earlier fortress called the White
-          <br />
-          or Red Palace on the site, built by Songtsen Gampo in 637. <br />
+          It may overlay the remains of an earlier fortress called the White or
+          Red Palace on the site, built by Songtsen Gampo in 637. <br />
         </p>
         <div
           class="text-center object-right my-3 p-3 .rounded-md space-y-3 inline-block align-middle"
@@ -209,10 +214,10 @@
     </div>
 
     <!--1 location -->
-    <h1 class="text-yellow-1000 py text-4xl object-center">Tenerife- Spain</h1>
+    <h1 class="text-yellow-1000 text-4xl object-center">Tenerife - Spain</h1>
 
     <div
-      class="text-center object-right my-3 p-3 .rounded-md space-y-3 inline-block align-middle"
+      class="text-center object-right my-3 p-3 .rounded-md  inline-block align-middle"
     >
       <img
         class="inline-block align-middle"
@@ -239,7 +244,6 @@
           its income at the time.<br />
         </p>
 
-        
         <div
           class="text-center object-right my-3 p-3 .rounded-md space-y-3 inline-block align-middle"
         >
@@ -264,7 +268,6 @@
           makes Tenerife the tenth highest island in the world.
           <br />
         </p>
-
       </div>
     </div>
 
@@ -287,22 +290,23 @@
     <div class="about  text-white text">
       <p>
         Copenhagen (Danish: København) is the capital and most populous city of
-        Denmark.<br />
+        Denmark.
         For a number of years, Copenhagen has ranked high in international
-        surveys for its quality of life. Its stable economy together with its
+        surveys for its quality of life.<br /> Its stable economy together with its
         education services and level of social safety make it attractive for
         locals and visitors alike. Although it is one of the world's most
-        expensive cities, it is also one of the most liveable with its public
-        transport, facilities for cyclists and its environmental policies.
-        In elevating Copenhagen to "most liveable city" in 2013, Monocle pointed
-        to its open spaces, increasing activity on the streets, city planning in
+        expensive cities,<br /> it is also one of the most liveable with its public
+        transport, facilities for cyclists and its environmental policies. In
+        elevating Copenhagen to "most liveable city" in 2013, Monocle pointed <br /> to
+        its open spaces, increasing activity on the streets, city planning in
         favour of cyclists and pedestrians, and features to encourage
-        inhabitants to enjoy city life with an emphasis on community, culture
-        and cuisine. Other sources have ranked Copenhagen high for its
-        business environment, accessibility, restaurants and environmental
-        planning. <br /> </p>
+        inhabitants to enjoy city life with an emphasis on community,<br />culture
+        and cuisine. Other sources have ranked Copenhagen high for its business
+        environment, accessibility, restaurants and environmental planning.
+        <br />
+      </p>
 
-        <div
+      <div
         class="text-center object-right my-3 p-3 .rounded-md space-y-3 inline-block align-middle"
       >
         <img
@@ -313,13 +317,13 @@
           height="300"
         />
       </div>
-<p>
+      <p>
         Danes rank among the world's most happy people. In Copenhagen and the
         beautiful surrounding region, you'll learn why. The buzzing capital
-        mixes royal history, modern architecture and loads of culture with
+        mixes royal history, modern architecture and loads <br /> of culture with
         sustainable living and a mouthwatering restaurant scene. With a
         state-of-the-art metro, smooth public transport, short distances and
-        status as the best bike city in the world, getting around town to
+        status as the best bike city in the world,<br /> getting around town to
         experience everything couldn't be easier than in Copenhagen.
       </p>
     </div>
@@ -328,7 +332,9 @@
   <!--WEATHER API-->
 
   <form id="city-form">
-    <h1 class="article my-6">CHECK THE WEATHER AT YOUR FAVORITE CITY LOCATION</h1>
+    <h1 class="article my-6">
+      CHECK THE WEATHER AT YOUR FAVORITE CITY LOCATION
+    </h1>
     <input
       class="text-center"
       id="city-input"

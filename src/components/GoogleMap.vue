@@ -13,14 +13,12 @@
           :position="marker.position"
           :clickable="true"
           :draggable="true"
-          @click="myFunction()"
-        >
-        </GMapMarker>
+         @click="myFunction()"
+        />
       </GmapCluster>
     </GMapMap>
   </div>
 </template>
-
 <script>
 export default {
   name: "GoogleMap",
@@ -28,16 +26,12 @@ export default {
     markers: Array,
     center: Object,
   },
+
   methods: {
     myFunction() {
       console.log("myFunction");
       this.$emit("myFunction");
     },
   },
-  //   data() {
-  //     return {
-  //       center: { lat: 53.551086, lng: 9.993682 },
-  //     }
-  //   }
 };
 </script>
