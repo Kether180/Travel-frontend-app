@@ -5,7 +5,8 @@ import AboutTravel from '../views/About.vue';
 import DestinationTravel from '../views/Destination.vue';
 import ReservationsTravel from '../views/Reservations.vue';
 import LoggedUserHome  from '../views/LoggedUser.vue';
-
+import ForgotPassword  from '../views/ForgotPasswordview.vue';
+ 
 
 const routes = [
 	{
@@ -32,6 +33,11 @@ const routes = [
 		path: '/home-logged',
 		name: 'Home-logged',
 		component: LoggedUserHome
+	},
+	{
+		path: '/forgot-password',
+		name: 'forgot-password',
+		component: ForgotPassword
 	},
 
 	{

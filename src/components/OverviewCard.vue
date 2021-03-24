@@ -4,9 +4,13 @@
     <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white m-3 text-xl px-3 py-4">
       <img   v-bind:src="marker.image" />
     
-      <div class="px-6 py-4">
+      <div class="px-10 py-10
+      ">
         <div class="font-bold text-s mb-2"> {{marker.id}} </div>
         <div class="text-m mb-2"> {{marker.text}} </div>
+        <div class="text-m mb-2"> {{marker.date}} </div>
+         <div class="text-m mb-2"> {{marker.author}} </div>
+          <div class="text-m mb-2"> {{marker.author_img}} </div>
         
         <p class="text-gray-700 text-base"></p>
       </div>

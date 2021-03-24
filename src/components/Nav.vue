@@ -29,6 +29,7 @@
     <div class="inline-block align-middle p-6">
       <router-link to="/contact">Contact</router-link>
     </div>
+<!---Login--->
 
     <div class="w-full max-w-xs ">
       <form class="bg-black shadow-md rounded px-6">
@@ -68,12 +69,13 @@
             </button>
           </router-link>
          
-
+             <router-link to="/forgot-password">
           <a
             class="inline-block align-baseline py-1 px font-bold text-sm text-white-500 hover:text-blue-800 "
           >
             Forgot Password?
           </a>
+           </router-link>
         </div>
       </form>
     </div>
