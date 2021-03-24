@@ -36,7 +36,7 @@ export default {
           image: "/img/roraima.jpg",
           text: "South America Mountains",
           date: "01/02/2020",
-          author: "Bloger: Gabriel Peterson",
+          author: "Blogger: Gabriel Peterson",
           position: {
             lat: 5.143333,
             lng: -60.7625,
@@ -47,7 +47,7 @@ export default {
           image: "/img/machu_picchu.jpg",
           text: "Old Inca Empire",
           date: "21/03/2020",
-          author: "Bloger: Elizabeth Jons",
+          author: "Blogger: Elizabeth Jons",
           position: {
             lat: -13.163333,
             lng: -72.545556,
@@ -58,7 +58,7 @@ export default {
           image: "/img/beijing2.jpg",
           text: "Temple of Heaven",
           date: "21/05/2020",
-          author: "Bloger: Carlos Ramos",
+          author: "Blogger: Carlos Ramos",
           position: {
             lat: 39.8822,
             lng: 116.4066,
@@ -69,7 +69,7 @@ export default {
           image: "/img/potala00.jpg",
           text: "Potala Palace",
           date: "01/05/2021",
-          author: "Bloger: Joseph Pandira",
+          author: "Blogger: Joseph Pandira",
           position: {
             lat: 29.657778,
             lng: 91.116944,
@@ -80,7 +80,7 @@ export default {
           image: "/img/teresitas.jpg",
           text: "Spain",
           date: "11/05/2020",
-          author: "Bloger: Peter Grow",
+          author: "Blogger: Peter Grow",
           position: {
             lat: 28.268611,
             lng: -16.605556,
@@ -91,7 +91,7 @@ export default {
           image: "/img/copenhagen.jpg",
           text: "Denmark",
           date: "21/03/2020",
-          author: "Bloger: Alexander Angus",
+          author: "Blogger: Alexander Angus",
           position: {
             lat: 55.676111,
             lng: 12.568333,
