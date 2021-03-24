@@ -35,13 +35,13 @@
       <form class="bg-black shadow-md rounded px-6">
         <div class="mb">
           <label class="block text-white-700 text-sm font-bold " for="username">
-            Username
+            Username 
           </label>
           <input
-            class="shadow appearance-none border rounded  text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            class="text-center shadow appearance-none border rounded text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             id="username"
             type="text"
-            placeholder="Username"
+            placeholder="Username/E-mail"
           />
         </div>
         <div class="mb-1">
@@ -55,7 +55,7 @@
             class="shadow appearance-none border border-red- rounded text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             id="password"
             type="password"
-            placeholder="******************"
+            placeholder="********"
           />
           <p class="text-yellow-500 text-xs italic"></p>
         </div>

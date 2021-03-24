@@ -339,7 +339,7 @@
     </div>
   </div>
 
-  <!--WEATHER API-->
+  <!--WEATHER API>
 
   <form id="city-form">
     <h1 class="article my-6">
@@ -357,7 +357,7 @@
     >
       Submit
     </button>
-  </form>
+  </form--->
 </template>
 
 <script>

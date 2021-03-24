@@ -11,8 +11,8 @@
     A decade ago, I quit my job as a Business Developer in Sales and Marketing
     to visit Asia. <br />
     I thought I would take just a sabbatical year, but I ended up making
-    different trips around the world.<br />
-    I started Legal Travel Geek Nomads to share photos and stories
+    different trips around the world <br />
+    and I started Travel Geek Nomads to share photos and stories
     from my years around the globe.<br /><br />
 
     Instead of returning to America and the job environment, I decided to purse
