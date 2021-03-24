@@ -4,7 +4,7 @@
      PLEASE SEND US AN EMAIL  
     </h1>
     <svg  
-              class="text-white w-5 right my-3 h-4 inline-block align-middle mr-1 2xl:w-5"
+              class="object-center text-white w-5 right my-3 h-4 inline-block align-middle mr-1 2xl:w-5"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -27,7 +27,7 @@
               <i class="fas fa-envelope"></i>
             </p>
   </div>
-  <div class="text-white-300 py text-4xl">
+  <div class="text-white-300 py text-4xl align-middle">
   
   </div>
   <div
