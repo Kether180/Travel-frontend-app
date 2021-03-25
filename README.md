@@ -16,11 +16,12 @@ Responsive Travel Blog Web App project  - Full Stack Development - Hamburg Codin
 * [Weather API](https://openweathermap.org/api "Weather API documentation")
 * [Google Maps Embed API](https://developers.google.com/maps/documentation/embed/get-started "Google Maps Embed API documentation").
 * [Vue js](https://vuejs.org/").
+*  Hosted on Netlifly
 
  
-## Check the project with codeSandbox
+## Check the project
 
-https://k8clm.csb.app/
+https://travel-geek-nomand-blog.netlify.app/
 
 ## About
 
