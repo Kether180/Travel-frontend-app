@@ -21,8 +21,7 @@ Responsive Travel Blog Web App project  - Full Stack Development - Hamburg Codin
  
 ## Check the project
 
-https://travel-geek-nomand-blog.netlify.app/
-
+https://travel-nomad-geek-blog.netlify.app/
 ## About
 
 Alexander is a Full Stack developer/Digital Marketer & Advertiser located in Copenhagen, Denmark & Malmo, Sweden.
